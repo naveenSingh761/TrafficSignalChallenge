@@ -1,0 +1,54 @@
+.mainpost{
+    min-width: 5rem;
+    height:  fit-content;
+    padding: 2rem;
+    border: 1px solid #fb6666;
+    background-color: #3a3a3a;
+
+    > :nth-child(1){
+        text-align: center;
+        color: #f9f8f8;
+    }
+
+}
+.verticalpost{
+    width:  10rem;
+    height: 20rem;
+    border: 1px solid #000;
+    border-radius: 1rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+
+}
+.horizontalpost{
+    height:  10rem;
+    width: 20rem;
+    border: 1px solid #000;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+justify-content: space-around;
+
+
+
+}
+.box{
+    border: 1px solid #f9f8f8;
+    width:  5rem;
+    height: 5rem;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: rgb(54, 1, 1);
+
+}
